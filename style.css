@@ -23,3 +23,23 @@ p {
     margin-right: 12.5%;
     margin-left: 12.5%;
 }
+
+.form {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 33.3%;
+    margin-left: 33.3%;
+    padding:20px;
+    background-color: #fabfe2;
+    border: 3px dotted; 
+}
+
+#enter-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #fabfe2;
+    cursor: pointer;
+}
