@@ -24,7 +24,8 @@ function show() {
     }
 }
 
-form.onsubmit = function(){
+form.onsubmit = function(q){
+    q.preventDefault();
 
     title = document.getElementById("title").value;
     category = document.getElementById("category").value;
