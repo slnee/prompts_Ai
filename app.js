@@ -23,3 +23,20 @@ function show() {
         exemples.innerHTML = exemples.innerHTML + texte;
     }
 }
+
+form.onsubmit = function(){
+
+    title = document.getElementById("title").value;
+    category = document.getElementById("category").value;
+    prompt = document.getElementById("prompt").value;
+
+    add = {
+        title: title,
+        category: category,
+        prompt: prompt
+    };
+
+    prompts.push(add);
+    show();
+    form.reset();
+};
