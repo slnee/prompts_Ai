@@ -9,7 +9,7 @@ h1 {
     color: #bf83a7;
 }
 
-.exemples {
+#exemples {
     display: flex;
     flex-flow: wrap;
     background-color: #fabfe2;

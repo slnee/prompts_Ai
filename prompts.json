@@ -1,0 +1,31 @@
+[
+    {
+      "title": "sun",
+      "category": "weather",
+      "prompt": "Is it forecasting sunshine for tomorrow ?"
+    },
+  
+      {
+      "title": "rain",
+      "category": "weather",
+      "prompt": "Is rain forecast for tomorrow ?"
+    },
+  
+      {
+      "title": "storm",
+      "category": "weather",
+      "prompt": "Is it forecasting a storm for tomorrow ?"
+    },
+  
+      {
+      "title": "snow",
+      "category": "weather",
+      "prompt": "Is snow forecast for tomorrow ?"
+    },
+  
+      {
+      "title": "fog",
+      "category": "weather",
+      "prompt": "Is it forecasting fog for tomorrow ?"
+    }
+  ]
