@@ -29,12 +29,12 @@ form.onsubmit = function(q){
 
     title = document.getElementById("title").value;
     category = document.getElementById("category").value;
-    prompt = document.getElementById("prompt").value;
+    prompte = document.getElementById("prompt").value;
 
     add = {
         title: title,
         category: category,
-        prompt: prompt
+        prompte: prompte
     };
 
     prompts.push(add);
