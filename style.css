@@ -6,12 +6,14 @@ body {
 h1 {
     text-align: center;
     font-size: 60px;
-    color: #7a536b;
+    color: #986885;
 }
 
 #exemples {
     display: flex;
     flex-flow: wrap;
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: #fabfe2;
     border: 10px solid #bf83a7;
     border-radius: 5%;
