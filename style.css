@@ -11,7 +11,7 @@ h1 {
 
 #exemples {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column;
     margin-right: 10%;
     margin-left: 10%;
     background-color: #fabfe2;
