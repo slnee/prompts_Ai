@@ -1,0 +1,5 @@
+services:
+    prompt_ai :
+      build: .
+      ports:
+          - "3000:80"
