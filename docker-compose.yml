@@ -1,4 +1,5 @@
 services:
-    build: .
-    ports:
-      - "3000:80"
+    prompt_ai :
+      build: .
+      ports:
+          - "3000:80"
