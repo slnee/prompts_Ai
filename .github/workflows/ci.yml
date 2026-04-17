@@ -16,7 +16,7 @@ jobs:
     - name: Build the docker image
       run: 
         echo "build docker image"
-        docker compose up -d
+        docker compose up
 
     - name: Check the docker image
       run: 
